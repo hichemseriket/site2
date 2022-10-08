@@ -1,0 +1,21 @@
+/*hna tbadal le background t3 la page*/
+div {
+    background-image: url('https://mdbcdn.b-cdn.net/img/new/slides/003.webp');
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}

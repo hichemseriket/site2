@@ -1,0 +1,21 @@
+
+/*hna tbadal le background t3 la page*/
+body {
+    /*background-image: url('https://mdbcdn.b-cdn.net/img/new/slides/003.webp');*/
+    background-image: url('images/blogBackground.png');
+}
+
+footer{
+
+    position:absolute;
+
+    bottom:0;
+
+    width:100%;
+
+    padding-top:50px;
+    padding-bottom: 100px;
+
+    height:50px;
+
+}
